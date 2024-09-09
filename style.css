@@ -1,0 +1,488 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    height: 100vh;
+    width: 100vw;
+    background-color:rgb(227,227,227);
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    
+   
+}
+.main2{
+    width: 50%;
+    height: 100%;
+    /* background-color: rgb(152, 42, 42); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+   
+}
+/* .main3{
+    width: 50%;
+    height: 100%;
+    background-color: rgb(51, 42, 152);
+    display: flex;
+    justify-content: start;
+    align-items: center;
+} */
+.mainbx{
+    width: 70%;
+    height: 90%;
+    background-color: white;
+    border-radius: 5px;
+}
+.mainbx1{
+    width: 80%;
+    height: 50%;
+    background-color: white;
+    border-radius: 5px;
+}
+.head{
+    width: 100%;
+    height: 10%;
+    /* background-color: aqua; */
+    display: flex;
+}
+.headin{
+    width: 50%;
+    height: 100%;
+    /* background-color: rgb(188, 188, 188); */
+    display: flex;
+    align-items: center;
+   
+}
+.g{
+    width: 270px;
+    height: 40px;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.headin img{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+.g p{
+  margin-left: 10px;
+  font-size: 8px;
+  color: rgb(103, 103, 103);
+  
+
+}
+.g h1{
+    font-size: 10px;
+    margin-left: 9px;
+}
+
+.headin2{
+    width: 50%;
+    height: 100%;
+    /* background-color: rgb(186, 52, 52); */
+    display: flex;
+}
+.bx0{
+    width: 80%;
+    height: 100%;
+    /* background-color: green; */
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    text-align: center;
+   
+}
+.bx1{
+    width: 50%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(1,177,134);
+    border-radius: 5px;
+  
+   
+}
+.bx1 p{
+    font-size: 10px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   
+}
+.bx2{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+   
+}
+.bx3 p{
+    font-size: 10px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.bx3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    width: 40%;
+    height: 40%;
+    border-radius: 5px;
+  
+}
+.contact{
+    width: 100%;
+    height: 10%;
+    /* background-color: rgb(177, 196, 5); */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 10px;
+}
+.phn{
+    border: 1px solid rgb(210, 210, 210);
+    color: black;
+    opacity: .8;
+    display: flex;
+    align-items: center;
+
+    
+}
+.phn p{
+    margin-left: 5%;
+    font-size: 10px;
+    color: rgb(99, 99, 99);
+}
+
+.line{
+    height: 5%;
+    width: 100%;
+    /* border: 1px solid cornflowerblue; */
+}
+.line ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2%;
+}
+.line ul li{
+    font-weight: 100;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+.line ul :nth-child(1){
+    color: aqua;
+    background-color: aliceblue;
+    height: 20px;
+    width: 50px;
+    border-radius: 5px;
+    font-size: 12px;
+    text-align: center;
+}
+.contant{
+    width: 97%;
+    height: 100%;
+    /* background-color: rgb(77, 131, 131); */
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1f 1f 1f ;
+    /* grid-area: "one two" 
+               "tree four"
+               "five six" 
+               "seven eight" ; */
+
+    
+
+
+
+}
+.contantm{
+    display: flex;
+    justify-content: center;
+    height: 33%;
+    
+}
+
+.item2{
+  display: flex;
+  justify-content: end;
+}
+.item p{
+    color: rgb(100, 100, 100);
+    font-size: 16px;
+   
+
+}
+.item h4{
+    font-size: 11px;
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+}
+.item1{
+    margin-top: 10px;
+}
+.item2{
+    margin-top: 10px;
+   
+}
+.item2 h4{
+    background-color:rgb(206,206,206);
+    width: 15%;
+    height: 30%;
+    font-size: 9px;
+    text-align: center;
+    border-radius: 5px;
+    /* font-family: Arial, Helvetica, sans-serif; */
+}
+.item1 h4{
+    font-size: 20px;
+    /* font-family: Arial, Helvetica, sans-serif; */
+}
+.foot{
+    width: 100%;
+    height: 11%;
+    /* background-color: darkorange; */
+    /* display: flex;
+    align-items: center; */
+    margin-left: 1%;
+ 
+   
+}
+.foot p{
+    color: rgb(97, 97, 97);
+}
+.main3 {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.main-box {
+    background-color: white;
+    height: 55%;
+    width: 90%;
+    border-radius: 8px;
+}
+
+
+.main-box-general-info{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 19px;
+
+}
+.main-box-general-info p{
+    opacity: .6;
+}
+
+
+.iq{
+    height: 35%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.date{
+    margin-left: 20px;
+    width: 60%;
+    height: 30px;
+    border-radius: 5px;
+    padding:  0 2%;
+}
+.iq-1{
+    height: 70%;
+    width: 100%;    
+    display: flex;
+   
+    
+}
+.l1 label{
+    margin-left: 20px;
+}
+.l2 label{
+    display: block;
+    margin-left: 10px;
+}
+.admin{
+    width: 80%;
+    height: 30px;
+    border-radius: 5px;
+    padding:  0 2%;
+    margin-left: 10px;
+}
+.iq-2{
+    height: 50%;
+    width: 100%;
+    margin-left: 10px;
+
+}
+
+.okey{
+ 
+    height: 15%;
+    width: 100%;
+}
+.okey p{
+    opacity: .6;
+  margin-left: 3%;
+}
+.time-boxes{
+    width: 95%;
+    height: 50%;
+    margin: 0 auto;
+    border-radius: 5px;
+    display: flex;
+   justify-content: space-between;
+}
+.start{
+    width: 32%;
+    height: 100%;
+    background-color:#c3f0eb;
+    border-radius: 5px; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: .5px solid rgb(180, 177, 177);
+
+}
+.div{
+    height: 70%;
+    width: .5%;
+    background-color: #000000;
+    opacity: .3;
+}
+.end{
+    width: 32%;
+    height: 100%;
+    background-color: #ffe6db;
+    border-radius: 5px; ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: .5px solid rgb(180, 177, 177);
+
+}
+.flexibility{
+    width: 32%;
+    height: 100%;
+    background-color: #fdfccf;
+    border-radius: 5px; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: .5px solid rgb(180, 177, 177);
+
+}
+.okey1{
+    height: 15%;
+    width: 90%;
+    display: flex;
+    border-bottom: 1px solid;
+    margin-left: 20px;
+}
+.type p{
+    opacity: .6;
+}
+.m1{
+  height: 100%;
+  width: 50%;
+}
+.m1 input{
+    width: 82%;
+    height: 50%;
+    border-radius: 5px;
+    padding:  0 2%;
+}
+
+
+.m2{
+  height: 100%;
+  width: 50%;
+}
+.m2 input{
+    width: 82%;
+    height: 50%;
+    border-radius: 5px;
+    padding:  0 2%;
+}
+.ending{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 2%;
+}
+.ending .btn{
+    padding: .4rem 1rem;
+    color:white ;
+    border: none;
+    border-radius: 5px;
+    background-color: #03b486;
+    margin-right: 10px;
+
+    
+   
+}
+.ending .btn-1{
+    padding: .4rem 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color:#e3e3e3;
+   
+}
+@media all and (max-width:780px){
+    .main{
+        display:flex ;
+        height: auto;
+        flex-direction: column;
+        width: 100%;
+    }
+    .main2{
+        width: 100%;
+        height: auto;
+        margin-bottom: 30px;
+    }
+    .main3{
+        width: 100%;
+        width: auto;
+    }
+    .mainbx{
+        width: 90%;
+        height: auto;
+    }
+    .main-box{
+        width: 100%;
+        height: auto;
+        margin-bottom: 50px;
+    }
+    .contantm{
+        height: auto;
+    }
+    .contact{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .phn{
+        width: 95%;
+        height: 30px;
+    }
+    
+}
